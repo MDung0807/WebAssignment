@@ -1,0 +1,25 @@
+.main {
+    position:relative;
+    top: 86px;
+}
+
+.card-footer{
+
+}
+
+.slide{
+    position: relative;
+    top: 86px;
+    background-color: rgb(249, 244, 233);
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 2px gray;
+    width: auto;
+    height: 500px;
+    overflow: hidden;
+    margin: 1em;
+}

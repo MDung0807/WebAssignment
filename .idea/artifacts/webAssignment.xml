@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="webAssignment">
+    <output-path>$PROJECT_DIR$/out/artifacts/webAssignment</output-path>
+    <root id="archive" name="webAssignment.war" />
+  </artifact>
+</component>
