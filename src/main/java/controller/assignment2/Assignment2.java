@@ -1,16 +1,16 @@
-package controller.assignment1;
+package controller.assignment2;
 
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 import java.io.IOException;
 
-@WebServlet(name = "Assignment1", value = "/Assignment/1")
-public class Assignment1 extends HttpServlet {
+@WebServlet(name = "assignment2", value = "/assignment2")
+public class Assignment2 extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        request.getRequestDispatcher("/views/assignment1/index.jsp").forward(request, response);
+        request.getRequestDispatcher("/views/assignment2/index.jsp").forward(request, response);
     }
 
     @Override
